@@ -24,3 +24,8 @@ def listar_productos():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+""" curl -X POST -H "Content-Type: application/json" -d '{"nombre": "Zapatilla Nike", "precio": 100}' http://127.0.0.1:5000/agregar
+para poder agregar producto, tuve un problema no podia hacer /agregar pero era por el post y se hace de esa manera 
+"""
+
